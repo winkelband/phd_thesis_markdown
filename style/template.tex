@@ -200,12 +200,6 @@ $endfor$
 \begin{titlepage}
     \begin{center}
 
-    % Delete the following line
-    % to remove the UCL header logo
-    \ThisULCornerWallPaper{1.0}{style/univ_logo.eps}
-
-        \vspace*{2.5cm}
-
         \huge
         $title$
 
@@ -216,7 +210,6 @@ $endfor$
         $subtitle$
         $endif$
 
-
         \vspace{1.5cm}
 
         \Large
@@ -225,10 +218,8 @@ $endfor$
         \vspace{1.5cm}
 
         \normalsize
-        A thesis presented for the degree of\\
+        A thesis submitted for the degree of\\
         $degree$
-
-        \vfill
 
         \normalsize
         Supervised by:\\
@@ -238,7 +229,8 @@ $endfor$
 
         % Uncomment the following line
         % to add a centered university logo
-        % \includegraphics[width=0.4\textwidth]{style/univ_logo.eps}
+        \includegraphics[width=5cm]{$univ-logo$}
+        \vfill
 
         \normalsize
         $location$\\
